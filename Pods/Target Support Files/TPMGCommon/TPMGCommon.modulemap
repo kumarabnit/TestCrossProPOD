@@ -1,0 +1,6 @@
+framework module TPMGCommon {
+  umbrella header "TPMGCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

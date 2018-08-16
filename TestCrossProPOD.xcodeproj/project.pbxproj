@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E7EE6B8353823AEAF246852 /* Pods_TestCrossProPOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BA1326D695D836FC7A63F8 /* Pods_TestCrossProPOD.framework */; };
 		EBFAF0C621255E4E00DB0D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0C521255E4E00DB0D79 /* AppDelegate.m */; };
 		EBFAF0CC21255E4E00DB0D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF0CA21255E4E00DB0D79 /* Main.storyboard */; };
 		EBFAF0CE21255E5000DB0D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF0CD21255E5000DB0D79 /* Assets.xcassets */; };
@@ -14,9 +15,12 @@
 		EBFAF0D421255E5000DB0D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0D321255E5000DB0D79 /* main.m */; };
 		EBFAF0DD21255EB700DB0D79 /* TestResultListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0DC21255EB700DB0D79 /* TestResultListViewController.m */; };
 		EBFAF0E021255F3D00DB0D79 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0DF21255F3D00DB0D79 /* RangeSlider.swift */; };
+		EBFAF0E2212565E200DB0D79 /* TestResultsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0E1212565E200DB0D79 /* TestResultsDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D70A3FE9D3B774C016DE910 /* Pods-TestCrossProPOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCrossProPOD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCrossProPOD/Pods-TestCrossProPOD.debug.xcconfig"; sourceTree = "<group>"; };
+		E8BA1326D695D836FC7A63F8 /* Pods_TestCrossProPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCrossProPOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFAF0C121255E4E00DB0D79 /* TestCrossProPOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCrossProPOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFAF0C421255E4E00DB0D79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBFAF0C521255E4E00DB0D79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,8 @@
 		EBFAF0DC21255EB700DB0D79 /* TestResultListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestResultListViewController.m; sourceTree = "<group>"; };
 		EBFAF0DE21255F3C00DB0D79 /* TestCrossProPOD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCrossProPOD-Bridging-Header.h"; sourceTree = "<group>"; };
 		EBFAF0DF21255F3D00DB0D79 /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		EBFAF0E1212565E200DB0D79 /* TestResultsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultsDetailsViewController.swift; sourceTree = "<group>"; };
+		F6CDEB8C7CC6EF975A12E455 /* Pods-TestCrossProPOD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCrossProPOD.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCrossProPOD/Pods-TestCrossProPOD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7EE6B8353823AEAF246852 /* Pods_TestCrossProPOD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370BCC4351CDDC6FFC4D22D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8BA1326D695D836FC7A63F8 /* Pods_TestCrossProPOD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F60F8F6DBA1C643EF733B4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D70A3FE9D3B774C016DE910 /* Pods-TestCrossProPOD.debug.xcconfig */,
+				F6CDEB8C7CC6EF975A12E455 /* Pods-TestCrossProPOD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EBFAF0B821255E4E00DB0D79 = {
 			isa = PBXGroup;
 			children = (
 				EBFAF0C321255E4E00DB0D79 /* TestCrossProPOD */,
 				EBFAF0C221255E4E00DB0D79 /* Products */,
+				6F60F8F6DBA1C643EF733B4D /* Pods */,
+				370BCC4351CDDC6FFC4D22D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +105,7 @@
 				EBFAF0DF21255F3D00DB0D79 /* RangeSlider.swift */,
 				EBFAF0DB21255EB700DB0D79 /* TestResultListViewController.h */,
 				EBFAF0DC21255EB700DB0D79 /* TestResultListViewController.m */,
+				EBFAF0E1212565E200DB0D79 /* TestResultsDetailsViewController.swift */,
 				EBFAF0DE21255F3C00DB0D79 /* TestCrossProPOD-Bridging-Header.h */,
 			);
 			path = Classes;
@@ -91,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBFAF0D721255E5000DB0D79 /* Build configuration list for PBXNativeTarget "TestCrossProPOD" */;
 			buildPhases = (
+				B572F626E7263A0A20DD087C /* [CP] Check Pods Manifest.lock */,
 				EBFAF0BD21255E4E00DB0D79 /* Sources */,
 				EBFAF0BE21255E4E00DB0D79 /* Frameworks */,
 				EBFAF0BF21255E4E00DB0D79 /* Resources */,
+				E43A9FF8A9AFA76EB2940B9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +179,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B572F626E7263A0A20DD087C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCrossProPOD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E43A9FF8A9AFA76EB2940B9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestCrossProPOD/Pods-TestCrossProPOD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TPMGCommon/TPMGCommon.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPMGCommon.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCrossProPOD/Pods-TestCrossProPOD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBFAF0BD21255E4E00DB0D79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -159,6 +227,7 @@
 				EBFAF0DD21255EB700DB0D79 /* TestResultListViewController.m in Sources */,
 				EBFAF0D421255E5000DB0D79 /* main.m in Sources */,
 				EBFAF0C621255E4E00DB0D79 /* AppDelegate.m in Sources */,
+				EBFAF0E2212565E200DB0D79 /* TestResultsDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +365,7 @@
 		};
 		EBFAF0D821255E5000DB0D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D70A3FE9D3B774C016DE910 /* Pods-TestCrossProPOD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -317,6 +387,7 @@
 		};
 		EBFAF0D921255E5000DB0D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CDEB8C7CC6EF975A12E455 /* Pods-TestCrossProPOD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

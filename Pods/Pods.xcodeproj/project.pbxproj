@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0228C46ABF50AC4DB8EBD9EFA4600400 /* Pods-TestCrossProPOD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E980C4D8EA7E0DF4CA4A2CC0F23A1A /* Pods-TestCrossProPOD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0362C5182262552CB3324818A1AADC39 /* TPMGServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1361C14AB803FC095EE1AC5856FCFA8A /* TPMGServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A7787E702A7BC1276124F5BFB5A669 /* TPMGAuthenticationChallengeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFC11671CAC3B37B509A1EB2675FB74 /* TPMGAuthenticationChallengeHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		08BCB0874C889199CDF99009151E72C8 /* TPMGServiceError.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B0F52EDAC4736113A7A40F9F5D96B5 /* TPMGServiceError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0993CCEA3EDD60AEE2A83B870D629301 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB9EC0ECB9A63518A019843CB9EA044 /* NSString+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10331A39FE0E5B29BD57C8DA0F3852D8 /* TPMGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CB10EABDC63F0F13CB0C54F320DD8874 /* TPMGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163C0068F1C486142B42F999EB6F547A /* TPMGServiceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 80066423FBEE40A505962CA08EE016A2 /* TPMGServiceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180D183824AA97F7679C39F2FAC80247 /* TPMGSSOInterruptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67C576E129AA3394A661779255EDB8 /* TPMGSSOInterruptManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		18C98AC3E16A36962A2C9930E8E1DB64 /* TPMGServiceSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AC2A18E3EA50860979FA0520681F4F /* TPMGServiceSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1942A9F8A871264FF5FE2C4A31678FAD /* TPMGServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E57C2AB4CFE598BB8B0E70117D58 /* TPMGServiceConfiguration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		296E808D1CF24F005853D8903693DDA1 /* TPMGFileDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FDD65D5F8788739F6634E0EDD64F46 /* TPMGFileDownloadRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2FAAA051FA73AA20F8525167CDF45216 /* TPMGCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE8DBDAF7F5B44D970560D2A1BDBDD /* TPMGCommon-dummy.m */; };
+		30B81A8CFAE365E3A0049BD4EBE3680E /* TPMGServiceReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4811F93CB6C4E98C434706365B362E7B /* TPMGServiceReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3213157954781892F6EDB46E5FE9DA16 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C849FA7077D41B7F1E582CEF7ED56E /* NSDate+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3556CEF744210E99F4B67BF5D45FE182 /* TPMGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E457479EB57A695B5901C0004D1FCB /* TPMGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37834733398343B0E7BC46F5377E1132 /* TPMGServices.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B21EB5BEC57A7DA4146C6072D272D8 /* TPMGServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3811D036BE0DE33C45DDFC62C405E929 /* TPMGServiceError.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FE7FC5493BC7EDC67ABAF9CD34317B /* TPMGServiceError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C63DB383C9055DEAE968B420EE043A7 /* TPMGCookieManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8A82116402E538629D78A5FD6560C9 /* TPMGCookieManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D2685652BCD6B3998552FAB5CC7030C /* TPMGMemberSignOffManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD27A2B4BAFB84B1545CC886376C30 /* TPMGMemberSignOffManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3DC72B706FEE1A32F9DE1B517BE32DA4 /* TPMGServiceSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F71B16C8941DF96B48EDBE04A0A302C /* TPMGServiceSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A01BAAD7AEB309A7290CE642FFD045E /* TPMGImageDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA06B7FBE3BC37E9505E41F60CFAF3 /* TPMGImageDownloadRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		51BC92846E9BCE18A4EBF9446B7A7507 /* TPMGKeychainUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A55042C4FD1FDAE6C54CBDBDC8D46F4 /* TPMGKeychainUtility.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		569F549978D87939B18A4DB05A977ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5AC67A53923C5D8D1D1C71C9631EDCAF /* TPMGBaseServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D818201B3C1B48F318A7B57E993FFB /* TPMGBaseServiceRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5AF0DF20993341DF3D474C105673E3D8 /* Pods-TestCrossProPOD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB876CE23E6BB918FE969D0F68F37D /* Pods-TestCrossProPOD-dummy.m */; };
+		62326FA87CA85B9831EE51BD4FCABA5E /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB7FAD1731C3C5E5E59CE43DB5C4E44 /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AC0C15F97129D80C7E92F6B6B655DBA /* TPMGAuthenticationObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A06A78612CCE8CA5E19F563877E6F4DF /* TPMGAuthenticationObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD2E9C8B054B658EA1CEDC3B6612FED /* TPMGAuthenticationChallengeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A976E15C90F9815245DF77C5E18DCD39 /* TPMGAuthenticationChallengeHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E604C30CB10E67419F5C479A549DE03 /* TPMGBaseServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FA977B87E74A9BE23F6D6B0976E26E /* TPMGBaseServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74059DBCFE8E04502C1FF25D5C4D2480 /* TPMGFileDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E0EFA752567B05C496FE9C9DDFE0D1 /* TPMGFileDownloadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D01C17C60911A6AB22AFA1F4A253551 /* TPMGMemberKeepAliveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6AEF525EB21E58660BAF0424DF91832 /* TPMGMemberKeepAliveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D600D625795434F1025EAF337CD1506 /* TPMGLoadingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9D9DB2D91D27BC35D29EA87F80F191 /* TPMGLoadingOverlay.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		80C3BC23C5355C510847797235375D17 /* TPMGCookieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F79AE65346117AB1AB459D872747A /* TPMGCookieManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E1E88DD9480F63038C6E7D5FA15AE83 /* TPMGMemberSignOffManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9287A670682D3F1BB3A0582FCDBF4AB1 /* TPMGMemberSignOffManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F79DB92586E0953CDAEEBB42FC5FF3F /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C739BC7F85D68C6F921BF8395BA04F0 /* NSData+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C1834A8A65216960E7AEC3302D83445 /* TPMGServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B68E86C34C91CB77D8CCF291F969B4DB /* TPMGServiceRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9FB375CD8FBF5A08DB67282CD0E3907A /* TPMGServiceReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D53B25ABE3A45E3A6574B09AEA0E7C58 /* TPMGServiceReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A52C36AB861D9BF2C497989A0141E768 /* TPMGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742E8D7C8E0C17D9893AAD292572487 /* TPMGReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B25F178BEA5C2400896248FFEC9BB363 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 386AF7F01DB2368E8B134EE3869360CD /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD637A63C3B5B844670D36958E272032 /* TPMGServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 151AB3AF960DD916C6F3483EB3D637EA /* TPMGServiceManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE3B76BDBE188E4E3F08F044C7099F53 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288927CADCC5A8E6E52FD0C5C2CB747 /* NSDate+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2C4A6D049F662BAA204811629E7BA85 /* TPMGMemberSignOnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468CE13BF92C9AE4380569F1601504B /* TPMGMemberSignOnManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C5A8E6CC09EA7DB49FB38EA83EA0E4F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CA6B8719D51B280DB7B6EABA8C2C542A /* TPMGMemberKeepAliveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E01D0EF378656139250621E3D4BD5348 /* TPMGMemberKeepAliveManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD4C46A8EF60A9217038BA92A0B73AAC /* TPMGAuthenticationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 48626BCACABBDC7D6DDB740D7F483EC7 /* TPMGAuthenticationObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9FAB20A9F8BD99CCC004CCA9AFF5F81 /* TPMGSSOInterruptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F5FC0564F92A9FBC9A1D9CE3816D898 /* TPMGSSOInterruptManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC81FC1A91AC5720D1733F93AE311EE1 /* TPMGLoadingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4C3364D3407C7E21C70EDB2C839FF1 /* TPMGLoadingOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE65E78663D5E4BCF4F29F8F23A65CC5 /* TPMGMemberSignOnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 21FA26403E914050A678642C1EC1822E /* TPMGMemberSignOnManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF81E98BB1FFFA6E4D17B24B3FD29E24 /* TPMGServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1946056B4F38611731646B825600BDF9 /* TPMGServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0539A0AD84F2C127F255938B5E93392 /* TPMGServiceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A53A014832ED3BB71C33AEDDFE05710 /* TPMGServiceConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0E92AE6D50C4D1F67E156774CD2A29C /* NSData+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9352E568F21E4F3489E3CF4EB51EF1 /* NSData+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E531705A8CE35D946F2EDFD887B6B7C2 /* TPMGCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9F2CC21DD203A84C063090CC8BCA7C /* TPMGCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD3198E0831194F6C6671C7957358E8 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF955E6964550DB6EE991838EC4E6778 /* NSString+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE053DCF7DBC82B7B093E7BEECB81EFA /* TPMGImageDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C614AF1BE6097D56DECE23C261A2942 /* TPMGImageDownloadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F83E1E85EF06D708D0F888C4163E50FE /* TPMGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD472E029F2078C4B843BF77FFA5F11E /* TPMGAlertView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDE18EA87DE73B365F7F76066F90D2C3 /* TPMGKeychainUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A5672D36FDF597124B6C1E181C92AE /* TPMGKeychainUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB48A566214E760CB8F67C3B2AE3BF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA98025A8D6E1CDE9E4E5C017C7623D4;
+			remoteInfo = TPMGCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1361C14AB803FC095EE1AC5856FCFA8A /* TPMGServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceManager.h; path = TPMGCommon/TPMGCommon/Managers/TPMGServiceManager.h; sourceTree = "<group>"; };
+		151AB3AF960DD916C6F3483EB3D637EA /* TPMGServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceManager.m; path = TPMGCommon/TPMGCommon/Managers/TPMGServiceManager.m; sourceTree = "<group>"; };
+		1872E57C2AB4CFE598BB8B0E70117D58 /* TPMGServiceConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceConfiguration.m; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceConfiguration.m; sourceTree = "<group>"; };
+		18D818201B3C1B48F318A7B57E993FFB /* TPMGBaseServiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGBaseServiceRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGBaseServiceRequest.m; sourceTree = "<group>"; };
+		1946056B4F38611731646B825600BDF9 /* TPMGServiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGServiceRequest.h; sourceTree = "<group>"; };
+		1BB9EC0ECB9A63518A019843CB9EA044 /* NSString+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSString+Additions.h"; sourceTree = "<group>"; };
+		1DEB876CE23E6BB918FE969D0F68F37D /* Pods-TestCrossProPOD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCrossProPOD-dummy.m"; sourceTree = "<group>"; };
+		21FA26403E914050A678642C1EC1822E /* TPMGMemberSignOnManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberSignOnManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOnManager.h; sourceTree = "<group>"; };
+		2288927CADCC5A8E6E52FD0C5C2CB747 /* NSDate+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSDate+Additions.m"; sourceTree = "<group>"; };
+		22FA977B87E74A9BE23F6D6B0976E26E /* TPMGBaseServiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGBaseServiceRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGBaseServiceRequest.h; sourceTree = "<group>"; };
+		23C4E264EC2CAB7682B8DC0605848DF9 /* TPMGCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPMGCommon.xcconfig; sourceTree = "<group>"; };
+		26FD27A2B4BAFB84B1545CC886376C30 /* TPMGMemberSignOffManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberSignOffManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOffManager.m; sourceTree = "<group>"; };
+		3468CE13BF92C9AE4380569F1601504B /* TPMGMemberSignOnManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberSignOnManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOnManager.m; sourceTree = "<group>"; };
+		3742E8D7C8E0C17D9893AAD292572487 /* TPMGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGReachability.m; path = TPMGCommon/TPMGCommon/Reachability/TPMGReachability.m; sourceTree = "<group>"; };
+		37E457479EB57A695B5901C0004D1FCB /* TPMGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAlertView.h; path = TPMGCommon/TPMGCommon/Utilities/AlertView/TPMGAlertView.h; sourceTree = "<group>"; };
+		386AF7F01DB2368E8B134EE3869360CD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "TPMGCommon/TPMGCommon/Categories/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		38AC2A18E3EA50860979FA0520681F4F /* TPMGServiceSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceSession.h; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceSession.h; sourceTree = "<group>"; };
+		3C8A82116402E538629D78A5FD6560C9 /* TPMGCookieManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGCookieManager.h; path = TPMGCommon/TPMGCommon/Utilities/Cookies/TPMGCookieManager.h; sourceTree = "<group>"; };
+		44D7D4E59C360BED150630BEF88CD7A0 /* Pods-TestCrossProPOD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCrossProPOD.modulemap"; sourceTree = "<group>"; };
+		4811F93CB6C4E98C434706365B362E7B /* TPMGServiceReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceReachability.m; path = TPMGCommon/TPMGCommon/Reachability/TPMGServiceReachability.m; sourceTree = "<group>"; };
+		48626BCACABBDC7D6DDB740D7F483EC7 /* TPMGAuthenticationObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAuthenticationObject.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/BaseClass/TPMGAuthenticationObject.m; sourceTree = "<group>"; };
+		4C9352E568F21E4F3489E3CF4EB51EF1 /* NSData+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSData+Additions.h"; sourceTree = "<group>"; };
+		57FE7FC5493BC7EDC67ABAF9CD34317B /* TPMGServiceError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceError.h; path = TPMGCommon/TPMGCommon/ErrorHandler/TPMGServiceError.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5F4C3364D3407C7E21C70EDB2C839FF1 /* TPMGLoadingOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGLoadingOverlay.h; path = TPMGCommon/TPMGCommon/Utilities/LoadingOverlay/TPMGLoadingOverlay.h; sourceTree = "<group>"; };
+		6110072BD195900B10092F64D79905F9 /* Pods-TestCrossProPOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCrossProPOD.debug.xcconfig"; sourceTree = "<group>"; };
+		72FDD65D5F8788739F6634E0EDD64F46 /* TPMGFileDownloadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGFileDownloadRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGFileDownloadRequest.m; sourceTree = "<group>"; };
+		7398E4B5CDDF56F881E7DCC144E3ABF1 /* Pods-TestCrossProPOD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCrossProPOD.release.xcconfig"; sourceTree = "<group>"; };
+		73B0F52EDAC4736113A7A40F9F5D96B5 /* TPMGServiceError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceError.m; path = TPMGCommon/TPMGCommon/ErrorHandler/TPMGServiceError.m; sourceTree = "<group>"; };
+		7EB311D67808C2AD183A4E37E3F23A74 /* Pods_TestCrossProPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestCrossProPOD.framework; path = "Pods-TestCrossProPOD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF5563357C8BAAD4A5D6A3E4E447656 /* TPMGCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPMGCommon-prefix.pch"; sourceTree = "<group>"; };
+		80066423FBEE40A505962CA08EE016A2 /* TPMGServiceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceConfiguration.h; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceConfiguration.h; sourceTree = "<group>"; };
+		8A53A014832ED3BB71C33AEDDFE05710 /* TPMGServiceConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceConstants.h; path = TPMGCommon/TPMGCommon/Headers/TPMGServiceConstants.h; sourceTree = "<group>"; };
+		8C739BC7F85D68C6F921BF8395BA04F0 /* NSData+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSData+Additions.m"; sourceTree = "<group>"; };
+		8F9D9DB2D91D27BC35D29EA87F80F191 /* TPMGLoadingOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGLoadingOverlay.m; path = TPMGCommon/TPMGCommon/Utilities/LoadingOverlay/TPMGLoadingOverlay.m; sourceTree = "<group>"; };
+		90FA06B7FBE3BC37E9505E41F60CFAF3 /* TPMGImageDownloadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGImageDownloadRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGImageDownloadRequest.m; sourceTree = "<group>"; };
+		9287A670682D3F1BB3A0582FCDBF4AB1 /* TPMGMemberSignOffManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberSignOffManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOffManager.h; sourceTree = "<group>"; };
+		931F58FC5EA0D4EC91C5082EEFE68D4A /* TPMGCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPMGCommon.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E0EFA752567B05C496FE9C9DDFE0D1 /* TPMGFileDownloadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGFileDownloadRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGFileDownloadRequest.h; sourceTree = "<group>"; };
+		977FAB6B7D6F265E5CAF66157A0FDF65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A55042C4FD1FDAE6C54CBDBDC8D46F4 /* TPMGKeychainUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGKeychainUtility.m; path = TPMGCommon/TPMGCommon/Security/TPMGKeychainUtility.m; sourceTree = "<group>"; };
+		9C614AF1BE6097D56DECE23C261A2942 /* TPMGImageDownloadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGImageDownloadRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGImageDownloadRequest.h; sourceTree = "<group>"; };
+		9F5FC0564F92A9FBC9A1D9CE3816D898 /* TPMGSSOInterruptManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGSSOInterruptManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGSSOInterruptManager.h; sourceTree = "<group>"; };
+		9F71B16C8941DF96B48EDBE04A0A302C /* TPMGServiceSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceSession.m; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceSession.m; sourceTree = "<group>"; };
+		A06A78612CCE8CA5E19F563877E6F4DF /* TPMGAuthenticationObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAuthenticationObject.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/BaseClass/TPMGAuthenticationObject.h; sourceTree = "<group>"; };
+		A4C849FA7077D41B7F1E582CEF7ED56E /* NSDate+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSDate+Additions.h"; sourceTree = "<group>"; };
+		A8233CBBD86BADC467ADD5A2B0D268CC /* Pods-TestCrossProPOD-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestCrossProPOD-frameworks.sh"; sourceTree = "<group>"; };
+		A8DE8DBDAF7F5B44D970560D2A1BDBDD /* TPMGCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPMGCommon-dummy.m"; sourceTree = "<group>"; };
+		A976E15C90F9815245DF77C5E18DCD39 /* TPMGAuthenticationChallengeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAuthenticationChallengeHandler.h; path = TPMGCommon/TPMGCommon/Security/TPMGAuthenticationChallengeHandler.h; sourceTree = "<group>"; };
+		A9D76151B48CFF164296E777C3C2011F /* Pods-TestCrossProPOD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCrossProPOD-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABFC11671CAC3B37B509A1EB2675FB74 /* TPMGAuthenticationChallengeHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAuthenticationChallengeHandler.m; path = TPMGCommon/TPMGCommon/Security/TPMGAuthenticationChallengeHandler.m; sourceTree = "<group>"; };
+		AF3F79AE65346117AB1AB459D872747A /* TPMGCookieManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGCookieManager.m; path = TPMGCommon/TPMGCommon/Utilities/Cookies/TPMGCookieManager.m; sourceTree = "<group>"; };
+		B1E980C4D8EA7E0DF4CA4A2CC0F23A1A /* Pods-TestCrossProPOD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCrossProPOD-umbrella.h"; sourceTree = "<group>"; };
+		B68E86C34C91CB77D8CCF291F969B4DB /* TPMGServiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGServiceRequest.m; sourceTree = "<group>"; };
+		B6AEF525EB21E58660BAF0424DF91832 /* TPMGMemberKeepAliveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberKeepAliveManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberKeepAliveManager.h; sourceTree = "<group>"; };
+		B747B4B0E91F418D7D8912F02B2284D6 /* Pods-TestCrossProPOD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCrossProPOD-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA67C576E129AA3394A661779255EDB8 /* TPMGSSOInterruptManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGSSOInterruptManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGSSOInterruptManager.m; sourceTree = "<group>"; };
+		BB7AB28513EE3D63648704FC13CB7412 /* TPMGCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPMGCommon.framework; path = TPMGCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9F2CC21DD203A84C063090CC8BCA7C /* TPMGCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPMGCommon-umbrella.h"; sourceTree = "<group>"; };
+		CB10EABDC63F0F13CB0C54F320DD8874 /* TPMGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGReachability.h; path = TPMGCommon/TPMGCommon/Reachability/TPMGReachability.h; sourceTree = "<group>"; };
+		CCB7FAD1731C3C5E5E59CE43DB5C4E44 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "TPMGCommon/TPMGCommon/Categories/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		D3A5672D36FDF597124B6C1E181C92AE /* TPMGKeychainUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGKeychainUtility.h; path = TPMGCommon/TPMGCommon/Security/TPMGKeychainUtility.h; sourceTree = "<group>"; };
+		D53B25ABE3A45E3A6574B09AEA0E7C58 /* TPMGServiceReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceReachability.h; path = TPMGCommon/TPMGCommon/Reachability/TPMGServiceReachability.h; sourceTree = "<group>"; };
+		D5B21EB5BEC57A7DA4146C6072D272D8 /* TPMGServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServices.h; path = TPMGCommon/TPMGCommon/Headers/TPMGServices.h; sourceTree = "<group>"; };
+		DC228EB777B68C57B04B019F2E663120 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD472E029F2078C4B843BF77FFA5F11E /* TPMGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAlertView.m; path = TPMGCommon/TPMGCommon/Utilities/AlertView/TPMGAlertView.m; sourceTree = "<group>"; };
+		DEBD9AD7CCC15422CB445D079CA6A3AE /* Pods-TestCrossProPOD-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestCrossProPOD-resources.sh"; sourceTree = "<group>"; };
+		DF955E6964550DB6EE991838EC4E6778 /* NSString+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSString+Additions.m"; sourceTree = "<group>"; };
+		E01D0EF378656139250621E3D4BD5348 /* TPMGMemberKeepAliveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberKeepAliveManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberKeepAliveManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A39B282A3B098845797723D9258184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569F549978D87939B18A4DB05A977ECB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A7F6A61103DE464B45537A71F113FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8E6CC09EA7DB49FB38EA83EA0E4F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BCDE4BB8FE98C7AE2576D5B9C10333 /* Pods-TestCrossProPOD */ = {
+			isa = PBXGroup;
+			children = (
+				977FAB6B7D6F265E5CAF66157A0FDF65 /* Info.plist */,
+				44D7D4E59C360BED150630BEF88CD7A0 /* Pods-TestCrossProPOD.modulemap */,
+				A9D76151B48CFF164296E777C3C2011F /* Pods-TestCrossProPOD-acknowledgements.markdown */,
+				B747B4B0E91F418D7D8912F02B2284D6 /* Pods-TestCrossProPOD-acknowledgements.plist */,
+				1DEB876CE23E6BB918FE969D0F68F37D /* Pods-TestCrossProPOD-dummy.m */,
+				A8233CBBD86BADC467ADD5A2B0D268CC /* Pods-TestCrossProPOD-frameworks.sh */,
+				DEBD9AD7CCC15422CB445D079CA6A3AE /* Pods-TestCrossProPOD-resources.sh */,
+				B1E980C4D8EA7E0DF4CA4A2CC0F23A1A /* Pods-TestCrossProPOD-umbrella.h */,
+				6110072BD195900B10092F64D79905F9 /* Pods-TestCrossProPOD.debug.xcconfig */,
+				7398E4B5CDDF56F881E7DCC144E3ABF1 /* Pods-TestCrossProPOD.release.xcconfig */,
+			);
+			name = "Pods-TestCrossProPOD";
+			path = "Target Support Files/Pods-TestCrossProPOD";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77E0811BD4E008E618A01646BD56950C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11BCDE4BB8FE98C7AE2576D5B9C10333 /* Pods-TestCrossProPOD */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				85A2A08C50A01F0D1DF955B85748C95B /* Pods */,
+				8F347EC17BD6942F03C0E9E2FAADCE0D /* Products */,
+				77E0811BD4E008E618A01646BD56950C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85A2A08C50A01F0D1DF955B85748C95B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D87173DEF32DF78546B13D7AF89EB1B4 /* TPMGCommon */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F347EC17BD6942F03C0E9E2FAADCE0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EB311D67808C2AD183A4E37E3F23A74 /* Pods_TestCrossProPOD.framework */,
+				BB7AB28513EE3D63648704FC13CB7412 /* TPMGCommon.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D097BE7503004DCFBD6EC582141ADFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC228EB777B68C57B04B019F2E663120 /* Info.plist */,
+				931F58FC5EA0D4EC91C5082EEFE68D4A /* TPMGCommon.modulemap */,
+				23C4E264EC2CAB7682B8DC0605848DF9 /* TPMGCommon.xcconfig */,
+				A8DE8DBDAF7F5B44D970560D2A1BDBDD /* TPMGCommon-dummy.m */,
+				7EF5563357C8BAAD4A5D6A3E4E447656 /* TPMGCommon-prefix.pch */,
+				BD9F2CC21DD203A84C063090CC8BCA7C /* TPMGCommon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPMGCommon";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D87173DEF32DF78546B13D7AF89EB1B4 /* TPMGCommon */ = {
+			isa = PBXGroup;
+			children = (
+				4C9352E568F21E4F3489E3CF4EB51EF1 /* NSData+Additions.h */,
+				8C739BC7F85D68C6F921BF8395BA04F0 /* NSData+Additions.m */,
+				A4C849FA7077D41B7F1E582CEF7ED56E /* NSDate+Additions.h */,
+				2288927CADCC5A8E6E52FD0C5C2CB747 /* NSDate+Additions.m */,
+				1BB9EC0ECB9A63518A019843CB9EA044 /* NSString+Additions.h */,
+				DF955E6964550DB6EE991838EC4E6778 /* NSString+Additions.m */,
+				37E457479EB57A695B5901C0004D1FCB /* TPMGAlertView.h */,
+				DD472E029F2078C4B843BF77FFA5F11E /* TPMGAlertView.m */,
+				A976E15C90F9815245DF77C5E18DCD39 /* TPMGAuthenticationChallengeHandler.h */,
+				ABFC11671CAC3B37B509A1EB2675FB74 /* TPMGAuthenticationChallengeHandler.m */,
+				A06A78612CCE8CA5E19F563877E6F4DF /* TPMGAuthenticationObject.h */,
+				48626BCACABBDC7D6DDB740D7F483EC7 /* TPMGAuthenticationObject.m */,
+				22FA977B87E74A9BE23F6D6B0976E26E /* TPMGBaseServiceRequest.h */,
+				18D818201B3C1B48F318A7B57E993FFB /* TPMGBaseServiceRequest.m */,
+				3C8A82116402E538629D78A5FD6560C9 /* TPMGCookieManager.h */,
+				AF3F79AE65346117AB1AB459D872747A /* TPMGCookieManager.m */,
+				95E0EFA752567B05C496FE9C9DDFE0D1 /* TPMGFileDownloadRequest.h */,
+				72FDD65D5F8788739F6634E0EDD64F46 /* TPMGFileDownloadRequest.m */,
+				9C614AF1BE6097D56DECE23C261A2942 /* TPMGImageDownloadRequest.h */,
+				90FA06B7FBE3BC37E9505E41F60CFAF3 /* TPMGImageDownloadRequest.m */,
+				D3A5672D36FDF597124B6C1E181C92AE /* TPMGKeychainUtility.h */,
+				9A55042C4FD1FDAE6C54CBDBDC8D46F4 /* TPMGKeychainUtility.m */,
+				5F4C3364D3407C7E21C70EDB2C839FF1 /* TPMGLoadingOverlay.h */,
+				8F9D9DB2D91D27BC35D29EA87F80F191 /* TPMGLoadingOverlay.m */,
+				B6AEF525EB21E58660BAF0424DF91832 /* TPMGMemberKeepAliveManager.h */,
+				E01D0EF378656139250621E3D4BD5348 /* TPMGMemberKeepAliveManager.m */,
+				9287A670682D3F1BB3A0582FCDBF4AB1 /* TPMGMemberSignOffManager.h */,
+				26FD27A2B4BAFB84B1545CC886376C30 /* TPMGMemberSignOffManager.m */,
+				21FA26403E914050A678642C1EC1822E /* TPMGMemberSignOnManager.h */,
+				3468CE13BF92C9AE4380569F1601504B /* TPMGMemberSignOnManager.m */,
+				CB10EABDC63F0F13CB0C54F320DD8874 /* TPMGReachability.h */,
+				3742E8D7C8E0C17D9893AAD292572487 /* TPMGReachability.m */,
+				80066423FBEE40A505962CA08EE016A2 /* TPMGServiceConfiguration.h */,
+				1872E57C2AB4CFE598BB8B0E70117D58 /* TPMGServiceConfiguration.m */,
+				8A53A014832ED3BB71C33AEDDFE05710 /* TPMGServiceConstants.h */,
+				57FE7FC5493BC7EDC67ABAF9CD34317B /* TPMGServiceError.h */,
+				73B0F52EDAC4736113A7A40F9F5D96B5 /* TPMGServiceError.m */,
+				1361C14AB803FC095EE1AC5856FCFA8A /* TPMGServiceManager.h */,
+				151AB3AF960DD916C6F3483EB3D637EA /* TPMGServiceManager.m */,
+				D53B25ABE3A45E3A6574B09AEA0E7C58 /* TPMGServiceReachability.h */,
+				4811F93CB6C4E98C434706365B362E7B /* TPMGServiceReachability.m */,
+				1946056B4F38611731646B825600BDF9 /* TPMGServiceRequest.h */,
+				B68E86C34C91CB77D8CCF291F969B4DB /* TPMGServiceRequest.m */,
+				D5B21EB5BEC57A7DA4146C6072D272D8 /* TPMGServices.h */,
+				38AC2A18E3EA50860979FA0520681F4F /* TPMGServiceSession.h */,
+				9F71B16C8941DF96B48EDBE04A0A302C /* TPMGServiceSession.m */,
+				9F5FC0564F92A9FBC9A1D9CE3816D898 /* TPMGSSOInterruptManager.h */,
+				BA67C576E129AA3394A661779255EDB8 /* TPMGSSOInterruptManager.m */,
+				CCB7FAD1731C3C5E5E59CE43DB5C4E44 /* UIImage+ImageEffects.h */,
+				386AF7F01DB2368E8B134EE3869360CD /* UIImage+ImageEffects.m */,
+				9D097BE7503004DCFBD6EC582141ADFF /* Support Files */,
+			);
+			name = TPMGCommon;
+			path = TPMGCommon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74E30A1868A9A9BB2D5E762A341B871D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0228C46ABF50AC4DB8EBD9EFA4600400 /* Pods-TestCrossProPOD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17542979D69D47BD3556E26F9B8DFAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E92AE6D50C4D1F67E156774CD2A29C /* NSData+Additions.h in Headers */,
+				3213157954781892F6EDB46E5FE9DA16 /* NSDate+Additions.h in Headers */,
+				0993CCEA3EDD60AEE2A83B870D629301 /* NSString+Additions.h in Headers */,
+				3556CEF744210E99F4B67BF5D45FE182 /* TPMGAlertView.h in Headers */,
+				6DD2E9C8B054B658EA1CEDC3B6612FED /* TPMGAuthenticationChallengeHandler.h in Headers */,
+				6AC0C15F97129D80C7E92F6B6B655DBA /* TPMGAuthenticationObject.h in Headers */,
+				6E604C30CB10E67419F5C479A549DE03 /* TPMGBaseServiceRequest.h in Headers */,
+				E531705A8CE35D946F2EDFD887B6B7C2 /* TPMGCommon-umbrella.h in Headers */,
+				3C63DB383C9055DEAE968B420EE043A7 /* TPMGCookieManager.h in Headers */,
+				74059DBCFE8E04502C1FF25D5C4D2480 /* TPMGFileDownloadRequest.h in Headers */,
+				EE053DCF7DBC82B7B093E7BEECB81EFA /* TPMGImageDownloadRequest.h in Headers */,
+				FDE18EA87DE73B365F7F76066F90D2C3 /* TPMGKeychainUtility.h in Headers */,
+				DC81FC1A91AC5720D1733F93AE311EE1 /* TPMGLoadingOverlay.h in Headers */,
+				7D01C17C60911A6AB22AFA1F4A253551 /* TPMGMemberKeepAliveManager.h in Headers */,
+				8E1E88DD9480F63038C6E7D5FA15AE83 /* TPMGMemberSignOffManager.h in Headers */,
+				DE65E78663D5E4BCF4F29F8F23A65CC5 /* TPMGMemberSignOnManager.h in Headers */,
+				10331A39FE0E5B29BD57C8DA0F3852D8 /* TPMGReachability.h in Headers */,
+				163C0068F1C486142B42F999EB6F547A /* TPMGServiceConfiguration.h in Headers */,
+				E0539A0AD84F2C127F255938B5E93392 /* TPMGServiceConstants.h in Headers */,
+				3811D036BE0DE33C45DDFC62C405E929 /* TPMGServiceError.h in Headers */,
+				0362C5182262552CB3324818A1AADC39 /* TPMGServiceManager.h in Headers */,
+				9FB375CD8FBF5A08DB67282CD0E3907A /* TPMGServiceReachability.h in Headers */,
+				DF81E98BB1FFFA6E4D17B24B3FD29E24 /* TPMGServiceRequest.h in Headers */,
+				37834733398343B0E7BC46F5377E1132 /* TPMGServices.h in Headers */,
+				18C98AC3E16A36962A2C9930E8E1DB64 /* TPMGServiceSession.h in Headers */,
+				D9FAB20A9F8BD99CCC004CCA9AFF5F81 /* TPMGSSOInterruptManager.h in Headers */,
+				62326FA87CA85B9831EE51BD4FCABA5E /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46B5C3E2DA1D74C88135F4DB4BEFD870 /* Pods-TestCrossProPOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360C88C50EA46C6D504A37A07A7FD584 /* Build configuration list for PBXNativeTarget "Pods-TestCrossProPOD" */;
+			buildPhases = (
+				BCD7CCB51F1F8B96906D8EBA2698BF51 /* Sources */,
+				55A39B282A3B098845797723D9258184 /* Frameworks */,
+				74E30A1868A9A9BB2D5E762A341B871D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9A4B92674D8B0C816662341A6686B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestCrossProPOD";
+			productName = "Pods-TestCrossProPOD";
+			productReference = 7EB311D67808C2AD183A4E37E3F23A74 /* Pods_TestCrossProPOD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA98025A8D6E1CDE9E4E5C017C7623D4 /* TPMGCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1814FBC141D474AC3E201F41877B247 /* Build configuration list for PBXNativeTarget "TPMGCommon" */;
+			buildPhases = (
+				DCABBAC160FDC86BF61B8E36FC798916 /* Sources */,
+				72A7F6A61103DE464B45537A71F113FD /* Frameworks */,
+				C17542979D69D47BD3556E26F9B8DFAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPMGCommon;
+			productName = TPMGCommon;
+			productReference = BB7AB28513EE3D63648704FC13CB7412 /* TPMGCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F347EC17BD6942F03C0E9E2FAADCE0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46B5C3E2DA1D74C88135F4DB4BEFD870 /* Pods-TestCrossProPOD */,
+				AA98025A8D6E1CDE9E4E5C017C7623D4 /* TPMGCommon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD7CCB51F1F8B96906D8EBA2698BF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF0DF20993341DF3D474C105673E3D8 /* Pods-TestCrossProPOD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCABBAC160FDC86BF61B8E36FC798916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F79DB92586E0953CDAEEBB42FC5FF3F /* NSData+Additions.m in Sources */,
+				BE3B76BDBE188E4E3F08F044C7099F53 /* NSDate+Additions.m in Sources */,
+				EAD3198E0831194F6C6671C7957358E8 /* NSString+Additions.m in Sources */,
+				F83E1E85EF06D708D0F888C4163E50FE /* TPMGAlertView.m in Sources */,
+				05A7787E702A7BC1276124F5BFB5A669 /* TPMGAuthenticationChallengeHandler.m in Sources */,
+				CD4C46A8EF60A9217038BA92A0B73AAC /* TPMGAuthenticationObject.m in Sources */,
+				5AC67A53923C5D8D1D1C71C9631EDCAF /* TPMGBaseServiceRequest.m in Sources */,
+				2FAAA051FA73AA20F8525167CDF45216 /* TPMGCommon-dummy.m in Sources */,
+				80C3BC23C5355C510847797235375D17 /* TPMGCookieManager.m in Sources */,
+				296E808D1CF24F005853D8903693DDA1 /* TPMGFileDownloadRequest.m in Sources */,
+				4A01BAAD7AEB309A7290CE642FFD045E /* TPMGImageDownloadRequest.m in Sources */,
+				51BC92846E9BCE18A4EBF9446B7A7507 /* TPMGKeychainUtility.m in Sources */,
+				7D600D625795434F1025EAF337CD1506 /* TPMGLoadingOverlay.m in Sources */,
+				CA6B8719D51B280DB7B6EABA8C2C542A /* TPMGMemberKeepAliveManager.m in Sources */,
+				3D2685652BCD6B3998552FAB5CC7030C /* TPMGMemberSignOffManager.m in Sources */,
+				C2C4A6D049F662BAA204811629E7BA85 /* TPMGMemberSignOnManager.m in Sources */,
+				A52C36AB861D9BF2C497989A0141E768 /* TPMGReachability.m in Sources */,
+				1942A9F8A871264FF5FE2C4A31678FAD /* TPMGServiceConfiguration.m in Sources */,
+				08BCB0874C889199CDF99009151E72C8 /* TPMGServiceError.m in Sources */,
+				BD637A63C3B5B844670D36958E272032 /* TPMGServiceManager.m in Sources */,
+				30B81A8CFAE365E3A0049BD4EBE3680E /* TPMGServiceReachability.m in Sources */,
+				9C1834A8A65216960E7AEC3302D83445 /* TPMGServiceRequest.m in Sources */,
+				3DC72B706FEE1A32F9DE1B517BE32DA4 /* TPMGServiceSession.m in Sources */,
+				180D183824AA97F7679C39F2FAC80247 /* TPMGSSOInterruptManager.m in Sources */,
+				B25F178BEA5C2400896248FFEC9BB363 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA9A4B92674D8B0C816662341A6686B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPMGCommon;
+			target = AA98025A8D6E1CDE9E4E5C017C7623D4 /* TPMGCommon */;
+			targetProxy = EB48A566214E760CB8F67C3B2AE3BF36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05C3A64BCDAAE3D11DE9D468FA9C2D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6110072BD195900B10092F64D79905F9 /* Pods-TestCrossProPOD.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCrossProPOD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCrossProPOD/Pods-TestCrossProPOD.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1ADDCC08F1BD1A5E40B99F47D50C8A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C4E264EC2CAB7682B8DC0605848DF9 /* TPMGCommon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPMGCommon/TPMGCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPMGCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPMGCommon/TPMGCommon.modulemap";
+				PRODUCT_MODULE_NAME = TPMGCommon;
+				PRODUCT_NAME = TPMGCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BBC5B42CCDA877DA23410CD3C99F4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7398E4B5CDDF56F881E7DCC144E3ABF1 /* Pods-TestCrossProPOD.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCrossProPOD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCrossProPOD/Pods-TestCrossProPOD.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA9610A400BA2295CA9B826BB40B4788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C4E264EC2CAB7682B8DC0605848DF9 /* TPMGCommon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPMGCommon/TPMGCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPMGCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPMGCommon/TPMGCommon.modulemap";
+				PRODUCT_MODULE_NAME = TPMGCommon;
+				PRODUCT_NAME = TPMGCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360C88C50EA46C6D504A37A07A7FD584 /* Build configuration list for PBXNativeTarget "Pods-TestCrossProPOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C3A64BCDAAE3D11DE9D468FA9C2D01 /* Debug */,
+				6BBC5B42CCDA877DA23410CD3C99F4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1814FBC141D474AC3E201F41877B247 /* Build configuration list for PBXNativeTarget "TPMGCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADDCC08F1BD1A5E40B99F47D50C8A3B /* Debug */,
+				CA9610A400BA2295CA9B826BB40B4788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

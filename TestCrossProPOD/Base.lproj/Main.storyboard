@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XIt-VY-iBR" customClass="RangeSlider" customModule="TestResultPOC" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XIt-VY-iBR" customClass="RangeSlider" customModule="TestCrossProPOD" customModuleProvider="target">
                                 <rect key="frame" x="20" y="114" width="335" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -42,20 +42,50 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9rT-bD-wbr">
+                                <rect key="frame" x="157.5" y="174" width="59" height="34"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <state key="normal" title="Details">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="48e-Hj-MkY" kind="show" id="CSZ-eY-Hsi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XIt-VY-iBR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4bj-cI-kZC"/>
+                            <constraint firstItem="9rT-bD-wbr" firstAttribute="centerX" secondItem="XIt-VY-iBR" secondAttribute="centerX" id="777-SV-mQA"/>
                             <constraint firstItem="XIt-VY-iBR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="CoS-NQ-2o1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XIt-VY-iBR" secondAttribute="trailing" constant="20" id="efY-fM-Ze0"/>
+                            <constraint firstItem="9rT-bD-wbr" firstAttribute="top" secondItem="XIt-VY-iBR" secondAttribute="bottom" constant="20" id="n2Q-NL-NXs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="T7d-ba-Zt6"/>
+                    <connections>
+                        <outlet property="rangeSlider" destination="XIt-VY-iBR" id="MVx-SJ-wIA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="131.78410794602701"/>
+        </scene>
+        <!--Test Results Details View Controller-->
+        <scene sceneID="jl1-XA-hu1">
+            <objects>
+                <viewController id="48e-Hj-MkY" customClass="TestResultsDetailsViewController" customModule="TestCrossProPOD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1I6-Xi-xio">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dVV-a1-Qdn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oQN-KO-R2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1914" y="147"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rNQ-1K-h5a">

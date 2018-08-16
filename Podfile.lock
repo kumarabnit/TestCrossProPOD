@@ -1,0 +1,21 @@
+PODS:
+  - TPMGCommon (0.2.1)
+
+DEPENDENCIES:
+  - TPMGCommon (from `https://github.kp.org/TPMG/TPMGCommon.git`)
+
+EXTERNAL SOURCES:
+  TPMGCommon:
+    :git: https://github.kp.org/TPMG/TPMGCommon.git
+
+CHECKOUT OPTIONS:
+  TPMGCommon:
+    :commit: 344072980747b5207691faa3e48fc1a7a5941b11
+    :git: https://github.kp.org/TPMG/TPMGCommon.git
+
+SPEC CHECKSUMS:
+  TPMGCommon: 61d96ebccddc94339e425e4d7ace5e4de0d04c16
+
+PODFILE CHECKSUM: 6ea45b86910ee912b936055e8f05cfd5b43a02d2
+
+COCOAPODS: 1.5.3

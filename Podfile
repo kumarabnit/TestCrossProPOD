@@ -6,5 +6,5 @@ target 'TestCrossProPOD' do
   use_frameworks!
 
   # Pods for TestCrossProPOD
-
+  pod 'TPMGCommon', :git => 'https://github.kp.org/TPMG/TPMGCommon.git'
 end

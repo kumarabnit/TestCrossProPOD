@@ -1,0 +1,25 @@
+{
+  "name": "TPMGCommon",
+  "version": "0.2.1",
+  "summary": "Common module for all TPMG iOS application",
+  "homepage": "https://github.kp.org/TPMG/TPMGCommon/",
+  "authors": {
+    "Surya": "surya.pasula@kp.org"
+  },
+  "license": {
+    "type": "TPMG"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "git": "https://github.kp.org/TPMG/TPMGCommon.git",
+    "tag": "0.2.1"
+  },
+  "source_files": [
+    "TPMGCommon/TPMGCommon/**/*.{h,m}",
+    "TPMGCommon/TPMGCommon/Utilities/**/*.{h,m}",
+    "TPMGCommon/TPMGCommon/Utilities/Authentication/**/*.{h,m}"
+  ],
+  "requires_arc": true
+}

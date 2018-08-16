@@ -7,8 +7,9 @@
 //
 
 #import "TestResultListViewController.h"
-
+#import "TPMGAlertView.h"
 @interface TestResultListViewController ()
+@property (weak, nonatomic) IBOutlet RangeSlider *rangeSlider;
 
 @end
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [TPMGAlertView showAlertWithMessage:nil title:@"This is list class" cancelButtonTitle:TPMGAlertViewCancelButtonTitleOK];
 }
 
 - (void)didReceiveMemoryWarning {
