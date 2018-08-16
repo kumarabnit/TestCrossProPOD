@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		EBFAF0C621255E4E00DB0D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0C521255E4E00DB0D79 /* AppDelegate.m */; };
-		EBFAF0C921255E4E00DB0D79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0C821255E4E00DB0D79 /* ViewController.m */; };
 		EBFAF0CC21255E4E00DB0D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF0CA21255E4E00DB0D79 /* Main.storyboard */; };
 		EBFAF0CE21255E5000DB0D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF0CD21255E5000DB0D79 /* Assets.xcassets */; };
 		EBFAF0D121255E5000DB0D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFAF0CF21255E5000DB0D79 /* LaunchScreen.storyboard */; };
 		EBFAF0D421255E5000DB0D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0D321255E5000DB0D79 /* main.m */; };
+		EBFAF0DD21255EB700DB0D79 /* TestResultListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0DC21255EB700DB0D79 /* TestResultListViewController.m */; };
+		EBFAF0E021255F3D00DB0D79 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF0DF21255F3D00DB0D79 /* RangeSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBFAF0C121255E4E00DB0D79 /* TestCrossProPOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCrossProPOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFAF0C421255E4E00DB0D79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBFAF0C521255E4E00DB0D79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EBFAF0C721255E4E00DB0D79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EBFAF0C821255E4E00DB0D79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EBFAF0CB21255E4E00DB0D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBFAF0CD21255E5000DB0D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBFAF0D021255E5000DB0D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBFAF0D221255E5000DB0D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBFAF0D321255E5000DB0D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBFAF0DB21255EB700DB0D79 /* TestResultListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestResultListViewController.h; sourceTree = "<group>"; };
+		EBFAF0DC21255EB700DB0D79 /* TestResultListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestResultListViewController.m; sourceTree = "<group>"; };
+		EBFAF0DE21255F3C00DB0D79 /* TestCrossProPOD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCrossProPOD-Bridging-Header.h"; sourceTree = "<group>"; };
+		EBFAF0DF21255F3D00DB0D79 /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,9 @@
 		EBFAF0C321255E4E00DB0D79 /* TestCrossProPOD */ = {
 			isa = PBXGroup;
 			children = (
+				EBFAF0DA21255E9900DB0D79 /* Classes */,
 				EBFAF0C421255E4E00DB0D79 /* AppDelegate.h */,
 				EBFAF0C521255E4E00DB0D79 /* AppDelegate.m */,
-				EBFAF0C721255E4E00DB0D79 /* ViewController.h */,
-				EBFAF0C821255E4E00DB0D79 /* ViewController.m */,
 				EBFAF0CA21255E4E00DB0D79 /* Main.storyboard */,
 				EBFAF0CD21255E5000DB0D79 /* Assets.xcassets */,
 				EBFAF0CF21255E5000DB0D79 /* LaunchScreen.storyboard */,
@@ -69,6 +71,17 @@
 				EBFAF0D321255E5000DB0D79 /* main.m */,
 			);
 			path = TestCrossProPOD;
+			sourceTree = "<group>";
+		};
+		EBFAF0DA21255E9900DB0D79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EBFAF0DF21255F3D00DB0D79 /* RangeSlider.swift */,
+				EBFAF0DB21255EB700DB0D79 /* TestResultListViewController.h */,
+				EBFAF0DC21255EB700DB0D79 /* TestResultListViewController.m */,
+				EBFAF0DE21255F3C00DB0D79 /* TestCrossProPOD-Bridging-Header.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +115,7 @@
 				TargetAttributes = {
 					EBFAF0C021255E4E00DB0D79 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -141,7 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBFAF0C921255E4E00DB0D79 /* ViewController.m in Sources */,
+				EBFAF0E021255F3D00DB0D79 /* RangeSlider.swift in Sources */,
+				EBFAF0DD21255EB700DB0D79 /* TestResultListViewController.m in Sources */,
 				EBFAF0D421255E5000DB0D79 /* main.m in Sources */,
 				EBFAF0C621255E4E00DB0D79 /* AppDelegate.m in Sources */,
 			);
@@ -283,15 +298,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestCrossProPOD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestCrossProPOD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestCrossProPOD/Classes/TestCrossProPOD-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,15 +319,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestCrossProPOD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestCrossProPOD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestCrossProPOD/Classes/TestCrossProPOD-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

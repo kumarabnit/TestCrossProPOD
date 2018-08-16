@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestResultListViewController.h
 //  TestCrossProPOD
 //
 //  Created by Kumar Abnit on 16/08/18.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestCrossProPOD-Swift.h"
 
-@interface ViewController : UIViewController
-
+@interface TestResultListViewController : UIViewController
 
 @end
-
