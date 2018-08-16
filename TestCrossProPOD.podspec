@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TestCrossProPOD"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A Test POD of TestCrossProPOD."
 
   s.description  = <<-DESC
@@ -15,11 +15,11 @@ DESC
   s.author             = { "Kumar Abnit" => "avnitkumar10@gmail.com" }
   s.platform     = :ios, "9.0"
   #  When using multiple platforms
-  #s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/kumarabnit/TestCrossProPOD.git", :tag => "#{s.version}" }
-  s.source_files = "TestResultsPOD/Classes/**/*.{h,m,swift}"
+  s.source_files = "TestCrossProPOD/Classes/**/*.{h,m,swift}"
   # s.resource  = "icon.png"
-  s.resources = "TestResultsPOD/**/*.{storyboard,xib}"
+  s.resources = "TestCrossProPOD/**/*.{storyboard,xib}"
   s.dependency 'TPMGCommon'
  
 end
